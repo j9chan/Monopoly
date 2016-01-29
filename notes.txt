@@ -1,0 +1,16 @@
+players are able to roll as many times as they want.
+-also, can we only display the board after a move has been made, or improvement has been bought
+    (ie.  not after 'assets' or 'menu' have been called)
+
+
+
+
+
+
+There '-load' command line input works, and 'saveFile2' is a sample load file.  I havent implemented loading players, board.cc expects a function Player::loadPlayer(string), I can write it but I havent really looked at the Player class at all.
+
+Warning:  the rest of Board.cc is kind of a mess though, so be warned.
+
+The makefile makes an executable 'test’.
+ 
+Also, init.txt is for initializes the cells for a new game.
